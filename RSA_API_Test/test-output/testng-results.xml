@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4923" started-at="2022-09-30T02:33:56Z" finished-at="2022-09-30T02:34:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4923" started-at="2022-09-30T02:33:56Z" finished-at="2022-09-30T02:34:01Z">
+      <class name="api_pkg.DelBook">
+        <test-method status="PASS" signature="DeleteBook(java.lang.String)[pri:0, instance:api_pkg.DelBook@5034c75a]" name="DeleteBook" duration-ms="4073" started-at="2022-09-30T08:03:56Z" data-provider="DelData" finished-at="2022-09-30T08:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BACA141]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBook -->
+        <test-method status="PASS" signature="DeleteBook(java.lang.String)[pri:0, instance:api_pkg.DelBook@5034c75a]" name="DeleteBook" duration-ms="469" started-at="2022-09-30T08:04:00Z" data-provider="DelData" finished-at="2022-09-30T08:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BABA171]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBook -->
+        <test-method status="PASS" signature="DeleteBook(java.lang.String)[pri:0, instance:api_pkg.DelBook@5034c75a]" name="DeleteBook" duration-ms="317" started-at="2022-09-30T08:04:01Z" data-provider="DelData" finished-at="2022-09-30T08:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BBAA222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBook -->
+      </class> <!-- api_pkg.DelBook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
